@@ -1,0 +1,18 @@
+# factorial function
+
+def factorial(num):
+    num_included= list(range(1,num+1))
+    p=1
+    for i in num_included:
+        p= p*i
+    return p
+    
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+   
+   # for number lists in python, factorial function works like this
+   
+   num_list= [1,2,3,4,5]
+   
+   print([factorial(i) for i in num_list ])
+   
